@@ -109,6 +109,53 @@ p {
   font-weight: bold;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a {
+  color: white;
+  background: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
